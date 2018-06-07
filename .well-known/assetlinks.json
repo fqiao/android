@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.victor.tutorial",
+    "sha256_cert_fingerprints":
+    ["6E:30:72:64:8D:30:3A:E0:5E:9B:C4:95:43:9C:F7:AB:11:9A:E6:8A:D7:24:68:5E:EA:26:FB:28:1D:33:B9:B8"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://github.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.victor.tutorial",
+    "sha256_cert_fingerprints":
+    ["6E:30:72:64:8D:30:3A:E0:5E:9B:C4:95:43:9C:F7:AB:11:9A:E6:8A:D7:24:68:5E:EA:26:FB:28:1D:33:B9:B8"]
+  }
+}]
